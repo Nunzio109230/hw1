@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    background-image: url("login.jpeg");
+    background-repeat: no-repeat;
+}
+
+h1{
+    width:30%;
+    padding:1em 0em 1em 2em;
+    color:white;
+    font-family:"Anton",'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    border:solid black;
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    font-family: "Roboto",sans-serif;
+}
+
+#titolo{
+    position: absolute;
+    color:black;
+    font-size: 1.3em;
+    margin-top: 2%;
+    font-family: "Roboto",sans-serif;
+}
+
+div{
+    position: relative;
+    left:10%;
+    bottom:6%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+input{
+    border-color:rgb(82, 56, 195);
+    border-radius: 6px;
+    font-size:20px;
+    width: 80%;
+    height: 2.1em;
+    margin-bottom:7px;
+    font-family: "Roboto",sans-serif;
+}
+
+a{
+    position: absolute;
+    width: 80%;
+    top:75%;
+    text-align: center;
+    height:1.3em;
+}
+
+
+#link_x{
+    position: absolute;
+    right: 7%;
+    top:10%;
+    width: 20%;
+}
+
+#image_x{
+    width:1.7em;
+}
+
+#submit{
+    background-color:rgb(82, 56, 195);
+    color:white;
+    font-weight: bold;
+    margin-top:10%;
+    
+}
+
+.credenzialiOff{
+    display:none;
+}
+.credenzialiOn{
+    position:absolute;
+    top:48.4%;
+    left:0;
+    display:block;
+    background-color:rgb(209, 13, 13);
+    width: 80%;
+    height:8%;
+    text-align: center;
+}
+
+.credenzialiOn h4{
+    position: relative;
+    margin-top:0.5em;
+    color:white;
+}
+
+
+.new_account{
+    position:absolute;
+    top:3em;
+    left:25%;
+    width: 10em;
+    height:2.5em;
+    font-size:1.1em;
+    border-radius:10px;
+    color:white;
+    background-color: rgb(82, 56, 195);
+}
+button:hover{
+    background-color: rgb(131, 105, 246);
+}
+#submit:hover{
+    background-color: rgb(131, 105, 246);
+}
+
+#new_account:hover{
+    color:grey;
+}
+
+#new_account{
+    margin: auto;
+    border-top:1px solid black;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3em;
+}
+
+.errore{
+    position:absolute;
+    top:45%;
+    left:38%;
+    background-color: #cc0000;
+    color:white;
+    text-align: center;
+    padding-top: 0.5em;
+    width: 21.5em;
+    height:2em;
+}
+
+@media(max-width:800px){
+    main{
+        background-color: white;
+        display: flex;
+        border:solid black;
+        width: 50%;
+        height: 70%;
+        margin: auto;
+        font-family: "Roboto",sans-serif;
+    }
+}
+
+
+@media(max-width:414px){
+    .new_account{
+        position:absolute;
+        top:3em;
+        left:15%;
+        width: 5em;
+        height:2.5em;
+        font-size:1.1em;
+        border-radius:10px;
+        color:white;
+        background-color: rgb(82, 56, 195);
+    }
+    #titolo{
+        position: absolute;
+        color:black;
+        font-size: 0.8em;
+        margin-top: 2%;
+        font-family: "Roboto",sans-serif;
+    }
+}

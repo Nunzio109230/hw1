@@ -1,0 +1,250 @@
+body{
+    margin:0px;
+    color:white;
+}
+
+header{
+    position:absolute;
+    background-image: url("w.jpeg");
+    background-repeat: no-repeat;
+    width: 98.9vw;
+    height: 100%;
+}
+h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family:"Anton",'Times New Roman', Times, serif;
+    font-size: 5em; 
+    width: 70%;
+    text-align: center;
+    color:rgba(255, 119, 0, 0.921);
+    position: absolute;
+    top:20%;
+    left:15%;
+    animation: animation;
+    animation-duration: 2.5s;
+    z-index:1;
+}
+#logo{
+    position:absolute;
+    width:40px;
+    left:55%;
+    top:1.5%;
+    z-index:1;
+}
+
+
+#s{
+    color:white;
+    position: absolute;
+    font-size:2.1em;
+    top:-2%;
+    left:23.5%;
+    color: rgba(255, 119, 0, 0.921);
+    animation: none;
+    font-family: "Righteous", 'Times New Roman', Times, serif;
+    z-index:1;
+}
+
+#peace{
+    color:white;
+    position: absolute;
+    font-size:2.1em;
+    top:-2%;
+    left:27.4%;
+    color: rgb(255, 225, 0);
+    animation: none;
+    font-family: "Righteous", 'Times New Roman', Times, serif;
+    z-index:1;
+}
+#ss{
+    color:white;
+    position: absolute;
+    font-size:2.1em;
+    top:-0.4%;
+    left:65.2%;
+    color: rgba(255, 119, 0, 0.921);
+    animation: none;
+    font-family: "Righteous",'Times New Roman', Times, serif;
+    width: 1em;
+    z-index:1;
+}
+
+#on{
+    color:white;
+    position: absolute;
+    font-size:2.1em;
+    top:-0.4%;
+    left:67.1%;
+    color: rgb(255, 225, 0);
+    animation: none;
+    font-family: "Righteous", 'Times New Roman', Times, serif;
+    width: 1em;
+    z-index:1;
+}
+
+#g{
+    color:white;
+    position: absolute;
+    font-size:2.1em;
+    top:-0.4%;
+    left:69.4%;
+    width: 1em;
+    color: rgba(255, 119, 0, 0.921);
+    animation: none;
+    font-family: "Righteous", 'Times New Roman', Times, serif;
+    z-index:1;
+}
+.other{
+    color:white;
+    position: absolute;
+    font-size:1em;
+}
+@keyframes animation {
+    from {color: rgb(255, 225, 0);}
+    to {color: rgba(255, 119, 0, 0.921);}
+  }
+
+nav{
+    position: absolute;
+    font-family: "Barlow", 'Times New Roman', Times, serif;
+    margin-top:0.5em;
+    width: 100%;
+    z-index:1;
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    align-items: center;
+}
+
+.nav_left{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.nav_right{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:rgba(255, 119, 0, 0.921);
+}
+.login_nav{
+    
+    position: relative;
+    margin-top:4em;
+    height: 5em;
+    width: 7em;
+    align-items: center;
+}
+#user{
+    border-left:1px solid white;
+    padding-left: 2em;
+    height:2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+
+
+footer{
+    margin:0;
+    margin-top:50%;
+    left:1%;
+    background-color:black;
+    width: 100%;
+    height:20em;
+    font-family: "Barlow", 'Times New Roman', Times, serif;
+}
+
+#h1_footer{
+    position:relative;
+    width: 5em;
+    height: 50px;
+    font-size: 2.3em;
+    color:white;
+    animation:none;
+}
+
+.footer_container{
+    position: relative;
+    left:35%;
+    bottom:25%;
+    margin-top:5em;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    orientation: row;
+}
+
+.div_footer h4{
+    font-weight: bold;
+}
+.div_footer p{
+    color:rgb(116, 115, 115)
+}
+
+.NB{
+    position: relative;
+    width: 100%;
+    bottom:30%;
+    border-top:0.1px solid grey;
+    padding-top:0.5em;
+    text-align: center;
+    color:white;
+    font-size:0.8em;
+}
+@media (max-width:834px){
+    header{
+        width: 100%;
+    }
+    #logo{width: 40px;
+        left:60%;
+        top:0.5%;    
+    }
+    #s{display: none;}
+    #peace{display: none;}
+    #ss{display: none;}
+    #on{display: none;}
+    #g{display: none;}
+    h1{
+        left:30%;
+        width: 40%;
+        font-size:2em;
+    }
+    nav{width: 100%;
+    font-size:0.5em;}
+    footer{width:100%;
+        position: relative;
+        top:70vw;
+        left:0%;
+        font-size:0.5em;}
+    #h1_footer{
+        left:5%;
+    }
+}
+
+@media (max-width:780px){
+    footer{
+        top:50vw;
+    }
+}
+
+@media (max-width:385px){
+    footer{
+        top:100vw;
+    }
+}

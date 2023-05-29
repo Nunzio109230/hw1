@@ -1,0 +1,395 @@
+body{
+    margin:0;
+    background-color: rgba(1, 20, 38, 0.963);
+}
+
+header{
+    background-color: rgba(1,20,38);
+    border-color: 1px solid red;
+    width: 100%;
+    height: 50%;
+    
+}
+
+#back{
+    position: absolute;
+    left:1%;
+    top:4%;
+    width:2.5em;
+    height:2.5em;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+
+#back:hover{
+    background-color: rgba(255, 255, 255, 0.837);
+}
+#back a{
+    position: absolute;
+    left:0%;
+    top:0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+
+#back img{
+    position: relative;
+    left: 14%;
+    top:14%;
+    width: 70%;
+    height: 70%;
+}
+.music{
+    position: relative;
+    top:20%;
+    left:7%;
+    width: 18%;
+    height: 72%;
+    box-shadow: 0px 0px 70px black;
+}
+
+.count{
+    color:white;
+    position: absolute;
+    left:38.3%;
+    top:34.6%;
+    font-size: 1.15em;
+    width: 7em;
+    height: 1em;
+}
+
+
+.music img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header h1{
+    position: absolute;
+    bottom:20%;
+    left:33%;
+    width: 50%;
+    height: 50%;
+    font-size: 4em;
+    color:white;
+    font-family:"Anton",sans-serif;
+}
+
+header a{
+    position: absolute;
+    left:33%;
+    top:37%;
+    width: 5%;
+    color: white;
+    height: 3%;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Lato",'Times New Roman', Times, serif;
+}
+
+header p{
+    position: absolute;
+    left:83%;
+    bottom:-5%;
+    width: 5%;
+    color: white;
+    height: 3%;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Lato",'Times New Roman', Times, serif;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+#p_user{
+    position: relative;
+    left:37.2%;
+    top:-2.5%;
+    width: 0.4em;
+    font-family: "Lato",'Times New Roman', Times, serif;
+}
+
+.colonne{
+    font-family: "Barlow",sans-serif;
+    position: relative;
+    margin:6% 5% 0% 5% ;
+    display: flex;
+    flex-wrap: wrap;
+    orientation: row;
+    color:white;
+    border-bottom:0.5px solid white;
+}
+
+
+#alb_col{
+    position: relative;
+    left: 22%;
+}
+
+#art_col{
+    position: relative;
+    left: 46.7%;
+}
+
+#rip_col{
+    position: relative;
+    left: 72.5%;
+}
+
+
+.lista{
+    font-family:"Roboto",sans-serif;
+    position: relative;
+    width: 90%;
+    height: 9%;
+    margin: auto;
+    color:white;
+}
+
+
+.div_image_album{
+    position: relative;
+    width: 100%;
+    margin-top:2%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div_image_album img{
+    position: relative;
+    left:10%;
+    width: 5%;
+}
+
+.div_image_album p{
+    position: relative;
+    left: 36.5%;
+}
+
+#nome_alb{
+    position: relative;
+    left:17%;
+    margin-right: 0%;
+    font-weight: bold;
+}
+
+#nome_art{
+    position: absolute;
+    left:50%;
+    font-weight: bold;
+}
+
+#pcount{
+    position: absolute;
+    left:80%;
+    font-weight: bold;
+}
+
+#numb{
+    position: absolute;
+    left:6%;
+    top:10%;
+    font-weight: bold;
+}
+
+@media (max-width:1366px){
+    .music{
+        position: relative;
+        top:40%;
+        left:7%;
+        width: 20%;
+        height: 40%;
+        box-shadow: 0px 0px 70px black;
+    }
+
+    header h1{
+        position: absolute;
+        bottom:20%;
+        left:33%;
+        width: 50%;
+        height: 50%;
+        font-size: 3em;
+        color:white;
+    }
+
+    header a{
+        position: absolute;
+        left:33%;
+        top:36%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #p_user{
+        position: absolute;
+        left:37%;
+        top:35%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width:834px){
+    .music{
+        position: relative;
+        top:40%;
+        left:7%;
+        width: 20%;
+        height: 40%;
+        box-shadow: 0px 0px 70px black;
+    }
+
+    header h1{
+        position: absolute;
+        bottom:20%;
+        left:33%;
+        width: 50%;
+        height: 50%;
+        font-size: 2em;
+        color:white;
+    }
+
+    header a{
+        position: absolute;
+        left:29.7%;
+        top:37.9%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #p_user{
+        position: absolute;
+        left:36.5%;
+        top:35.5%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #rip_col{
+        position: relative;
+        left: 62%;
+    }
+
+}
+
+@media (max-width:500px){
+    .music{
+        position: relative;
+        top:40%;
+        left:7%;
+        width: 30%;
+        height: 30%;
+        box-shadow: 0px 0px 70px black;
+    }
+
+    header h1{
+        position: absolute;
+        bottom:20%;
+        left:46%;
+        width: 50%;
+        height: 50%;
+        font-size: 1em;
+        color:white;
+    }
+
+    header a{
+        position: absolute;
+        left:45%;
+        top:33%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #p_user{
+        position: absolute;
+        left:58%;
+        top: 31%;
+        width: 5%;
+        color: white;
+        height: 3%;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+    .count{
+        color:white;
+        position: absolute;
+        left:61%;
+        top:30.8%;
+        font-size: 1em;
+        width: 4em;
+        height: 1em;
+    }
+
+    #nome_alb{
+        position: relative;
+        left:17%;
+        margin-right: 0%;
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+    
+    #nome_art{
+        position: absolute;
+        left:50%;
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+    
+    #pcount{
+        position: absolute;
+        left:80%;
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+
+    #alb_col{
+        position: relative;
+        left: 22%;
+        font-size: 0.8em;
+    }
+    
+    #art_col{
+        position: relative;
+        left: 43.7%;
+        font-size: 0.8em;
+    }
+
+    #rip_col{
+        position: relative;
+        left: 52%;
+        font-size: 0.8em;
+    }
+
+}
